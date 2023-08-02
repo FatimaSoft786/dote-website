@@ -1,0 +1,33 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+ .nav-links {
+    @apply  text-base cursor-pointer hover:text-red-500 hover:border-red-500 hover:border-b-2 text-black
+ }
+}
+
+
+
+button {
+   @apply text-white bg-primary border border-primary px-2 py-1 font-poppins font-normal text-base 
+   hover:bg-transparent hover:text-primary rounded-md
+ }
+
+ .hide-scrollbar::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+
+
+
+
+ 
+ 
